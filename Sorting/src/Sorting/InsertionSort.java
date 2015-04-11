@@ -10,6 +10,17 @@ public class InsertionSort {
 	public static int[] insertionSort(int[] unsortedArray) {
 		//TODO: S2 implements insertion sort
 		
-		return null;
+		// TODO Implement insertion sort
+	    for(int i = 1; i < unsortedArray.length; i++){
+	    	int x = unsortedArray[i];
+	    	int j = i;
+	    	while (j > 0 && unsortedArray[j-1] > x){
+	    		unsortedArray[j] = unsortedArray[j-1];
+	    		unsortedArray[j-1] = x;
+	    		j = j-1;
+	    	}
+	    }
+	    //now its sorted :)
+	    return unsortedArray;
 	}
 }
