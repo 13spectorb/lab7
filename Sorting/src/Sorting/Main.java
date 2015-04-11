@@ -27,7 +27,6 @@ public class Main {
 		for (int i: unsortedArray) {
 				System.out.print(i + " ");
 		}
-		System.out.println();
 		
 	}
 
